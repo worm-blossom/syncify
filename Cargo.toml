@@ -2,6 +2,9 @@
 name = "syncify"
 version = "0.1.0"
 edition = "2021"
+description = "A simple macro for writing async functions once and getting both the async version and a sync version that strips all async function modifiers and all .await suffixes."
+repository = "https://github.com/worm-blossom/syncify"
+license = "MIT OR Apache-2.0"
 
 [lib]
 proc-macro = true
